@@ -81,3 +81,15 @@
   height: auto;
   cursor: pointer;
 }
+
+.code-snippet-icon {
+  width: 2.5rem;
+  flex-shrink: 0;
+  height: auto;
+}
+
+.code-snippet-star {
+  width: 1.4rem;
+  flex-shrink: 0;
+  height: 1.4rem;
+}
