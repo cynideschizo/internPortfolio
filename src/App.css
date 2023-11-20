@@ -40,3 +40,37 @@
 .read-the-docs {
   color: #888;
 }
+
+.bio {
+  background: linear-gradient(134deg, #3bf686 40.75%, #4ca9ff 90.52%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bio-img {
+  width: 7.75rem;
+  height: 7.75rem;
+  flex-shrink: 0;
+}
+.ellipse-1 {
+  width: 9.6875rem;
+  height: 9.6875rem;
+  flex-shrink: 0;
+}
+
+.connect-logo {
+  max-width: 2rem;
+  max-height: 2rem;
+  flex-shrink: 0;
+}
+
+.what-I-do-card-bg {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.what-I-do-card-image {
+  width: 2.25rem;
+  height: 2.25rem;
+}
