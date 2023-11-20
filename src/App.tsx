@@ -6,6 +6,7 @@ import './App.css'
 import Bio from './components/Bio'
 import BioDetails from './components/BioDetails'
 import WhatIDo from './components/WhatIDo'
+import FeaturedProjects from './components/FeaturedProjects'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <Bio/>
       <BioDetails/>
       <WhatIDo/>
+      <FeaturedProjects/>
     </Box>
   )
 }
