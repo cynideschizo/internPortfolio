@@ -93,3 +93,35 @@
   flex-shrink: 0;
   height: 1.4rem;
 }
+
+.navbar-menu-active {
+  color: #fff;
+  text-align: right;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 5.03125rem; /* 503.125% */
+  letter-spacing: 0.0625rem;
+}
+
+.navbar-menu {
+  color: #d1d1d1;
+  text-align: right;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 5.03125rem; /* 503.125% */
+  letter-spacing: 0.0625rem;  
+}
+
+.navbar-logo {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.875rem; /* 125% */
+  letter-spacing: 0.03125rem;
+}
