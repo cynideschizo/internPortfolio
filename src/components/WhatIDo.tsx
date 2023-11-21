@@ -1,5 +1,5 @@
 import { Box, Card, Typography } from "@mui/material";
-import Arrow from "../assets/arrow-forward.svg";
+
 import WebDevImage from "../assets/web-dev-image.png";
 import WebDevBg from "../assets/web-dev-bg.png";
 import UxImage from "../assets/ux-image.png";
