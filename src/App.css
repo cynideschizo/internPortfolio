@@ -71,7 +71,9 @@
   flex-shrink: 0;
 }
 .connect-logo:hover{
-  color: #3bf686;
+  background-color: #3bf686;
+  -webkit-background-clip:border-box;
+  background-clip:content-box;
 
 }
 

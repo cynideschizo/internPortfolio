@@ -13,6 +13,7 @@ function CodeSnippet() {
         gap: 4,
         '&:hover':{
           transform:"translate:-10px",
+          boxShadow:""
           
 
       },

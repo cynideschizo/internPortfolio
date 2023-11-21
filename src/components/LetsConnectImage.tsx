@@ -1,21 +1,25 @@
 import { Box } from "@mui/material";
-import instagramLogo from "../assets/instagram.png";
-import twitterLogo from "../assets/twitter.png";
-import facebookLogo from "../assets/facebook.png";
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 function LetsConnectImage() {
   return (
     <Box
       sx={{ display: "flex",  justifyContent: "start", gap: 2 }}
     >
-      <Box sx={{}}>
-        <img src={instagramLogo} className="connect-logo" alt="ellipse" />
+      <Box sx={{display:"inline-block",
+  margin:" 0 1rem",fontSize: "2rem","&:hover":{color:"#E4405F"}  }}>
+       <InstagramIcon/>
+        
       </Box>
-      <Box sx={{ }}>
-        <img src={twitterLogo} className="connect-logo" alt="bio" />
+      <Box sx={{display:"inline-block",
+  margin:" 0 1rem",fontSize: "2rem","&:hover":{color:"#1DA1F2"}  }}>
+        <TwitterIcon/>
       </Box>
-      <Box sx={{}}>
-        <img src={facebookLogo} className="connect-logo" alt="bio" />
+      <Box sx={{  display:"inline-block",
+  margin:" 0 1rem",fontSize: "2rem", "&:hover":{color:"#1877F2"}}}>
+        <FacebookIcon/>
       </Box>
     </Box>
   );
