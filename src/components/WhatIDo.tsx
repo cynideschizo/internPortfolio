@@ -6,7 +6,7 @@ import UxImage from "../assets/ux-image.png";
 import UxBg from "../assets/ux-bg.png";
 function WhatIDo() {
   return (
-    <Box sx={{ display: "inline-flex",mt:4 }}>
+    <Box sx={{ display: "inline-flex",mt:5 }}>
       <Box
         sx={{
           //position: "relative",
@@ -14,17 +14,22 @@ function WhatIDo() {
           display: "flex",
           flexDirection: "column",
           textAlign: "left",
-          maxWidth: "24rem",
+          maxWidth: "48rem",
+          cursor:"pointer",
           justifyContent: "center",
+         
+          
+            
+          
         }}
       >
         <Typography
           variant="h4"
-          sx={{ fontWeight: 700, fontSize: "1.75rem", mb: 2 }}
+          sx={{ fontWeight: 700, fontSize: "1.75rem", mb: 4 ,width : "10rem"}}
         >
           What I do
         </Typography>
-        <Typography sx={{ color: "#EDCECE" }}>
+        <Typography sx={{ color: "#EDCECE" ,width:"30rem"}}>
           Build and maintain websites,{" "}
           <span style={{ color: "#80FFA3", fontWeight: 700 }}>
             frontend dev
@@ -34,7 +39,7 @@ function WhatIDo() {
           motto is Beauty and function in equal measure as priority.
         </Typography>
       </Box>
-      <Box sx={{ display: "inline-flex", gap: 4 }}>
+      <Box sx={{ display: "inline-flex", gap: 7 }}>
         <Card
           sx={{
             bgcolor: "#323443",
@@ -45,6 +50,12 @@ function WhatIDo() {
             flexDirection: "column",
             alignItems: "center",
             overflow: "visible",
+            "&:hover":{
+              
+              boxShadow:"0 0 50px 4px rgba(0,0,0,0.6)",
+              filter:"brightness(1.1)",
+
+          }
           }}
         >
           <Box sx={{ position: "absolute", top: "-2.25rem" }}>
@@ -96,6 +107,12 @@ function WhatIDo() {
             flexDirection: "column",
             alignItems: "center",
             overflow: "visible",
+            "&:hover":{
+              
+              boxShadow:"0 0 50px 4px rgba(0,0,0,0.6)",
+              filter:"brightness(1.1)",
+
+          },
           }}
         >
           <Box sx={{ position: "absolute", top: "-2.25rem" }}>
@@ -137,7 +154,7 @@ function WhatIDo() {
             lots of support.
           </Typography>
         </Card>
-        <img src={Arrow} alt={"arrow"} />
+     
       </Box>
     </Box>
   );

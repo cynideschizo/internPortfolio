@@ -1,5 +1,7 @@
 import { Box } from "@mui/material";
 
+
+
 function NavBar() {
   return (
     <Box
@@ -17,8 +19,8 @@ function NavBar() {
       }}
     >
       <div className="navbar-logo">Naufaldi</div>
-      <Box sx={{display:"flex",gap:4}}>
-        <div className="navbar-menu-active">Home</div>
+      <Box sx={{display:"flex",gap:5}}>
+        <div className="navbar-menu">Home</div>
         <div className="navbar-menu">Mentorship</div>
         <div className="navbar-menu">Portfolio</div>
         <div className="navbar-menu">Snippet</div>

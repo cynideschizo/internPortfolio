@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-import Featured1 from "../assets/project-1.png";
+import Featured1 from "../assets/project-1.png"
 import Featured2 from "../assets/project-2.png";
 import SeeMore from "./SeeMore";
 
@@ -11,6 +11,8 @@ function FeaturedProjects() {
         display: "flex",
         flexDirection: "column",
         gap: 6,
+        
+        
       }}
     >
       <Typography
@@ -20,7 +22,14 @@ function FeaturedProjects() {
         Featured Project
       </Typography>
 
-      <Box sx={{ display: "flex", gap: 4 }}>
+      <Box 
+      sx={{ display: "flex", gap: 4,  
+      "&:hover":{
+              
+              boxShadow:"0 0 50px 4px rgba(0,0,0,0.6)",
+              filter:"brightness(1.1)",
+
+          }}}>
         <Box>
           <img
             src={Featured1}
@@ -35,7 +44,10 @@ function FeaturedProjects() {
             flexDirection: "column",
             gap: 2,
             justifyContent: "center",
+            
+            
           }}
+          
         >
           <Typography
             variant="body1"
@@ -76,7 +88,12 @@ function FeaturedProjects() {
         </Box>
       </Box>
 
-      <Box sx={{ display: "flex", gap: 4 }}>
+      <Box sx={{ display: "flex", gap: 4 , "&:hover":{
+              
+              boxShadow:"0 0 50px 4px rgba(0,0,0,0.6)",
+              filter:"brightness(1.1)",
+
+          }}}>
         <Box>
           <img
             src={Featured2}
@@ -110,8 +127,6 @@ function FeaturedProjects() {
               //mb: 1,
               color: "white",
               fontWeight: 700,
-              //fontSize: '2.8rem',
-              //lineHeight: "3.5rem" /* 116.667% */,
               letterSpacing: "0.0625rem",
             }}
           >

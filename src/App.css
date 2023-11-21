@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+#sx:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
+        filter: brightness(1.1);
+
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -64,6 +70,10 @@
   max-height: 2rem;
   flex-shrink: 0;
 }
+.connect-logo:hover{
+  color: #3bf686;
+
+}
 
 .what-I-do-card-bg {
   width: 4.5rem;
@@ -114,6 +124,9 @@
   font-weight: 600;
   line-height: 5.03125rem; /* 503.125% */
   letter-spacing: 0.0625rem;  
+}
+.navbar-menu:hover{
+  color: purple;
 }
 
 .navbar-logo {

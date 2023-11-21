@@ -19,6 +19,12 @@ function FrontendStarter() {
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
+        "&:hover":{
+              
+          boxShadow:"0 0 50px 4px rgba(0,0,0,0.6)",
+          filter:"brightness(1.1)",
+
+      }
       }}
     >
       <Box>

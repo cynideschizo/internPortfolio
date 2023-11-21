@@ -11,6 +11,11 @@ function CodeSnippet() {
         display: "flex",
         flexDirection: "column",
         gap: 4,
+        '&:hover':{
+          transform:"translate:-10px",
+          
+
+      },
       }}
     >
       <Typography
